@@ -1,0 +1,1095 @@
+/* Gutter Cleaning Landing Page Styles */
+/* Base Styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Material Icons */
+.material-icons {
+  font-family: "Material Icons";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  display: inline-block;
+  line-height: 3;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  vertical-align: middle;
+  color: #2d5016;
+}
+
+/* Mobile Menu */
+.mobile-menu {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 900;
+}
+
+.mobileheaderbox {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 0px;
+  width: 100%;
+  overflow: auto;
+  margin-left: 0%;
+  background: #fff;
+  z-index: 900;
+}
+
+.navbar {
+  margin-bottom: 0px;
+  padding-bottom: 2px;
+  background: #fff;
+  border: none;
+}
+
+.container-fluid {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.navbar-header {
+  position: relative;
+  overflow: auto;
+}
+
+.navbar-toggle {
+  position: relative;
+  float: right;
+  padding: 6px 8px;
+  margin-top: 10px;
+  margin-right: 15px;
+  margin-bottom: 4px;
+  background-color: transparent;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.icon-bar {
+  display: block;
+  width: 30px !important;
+  height: 4px !important;
+  border-radius: 1px;
+  background-color: #2d5016 !important;
+  margin-bottom: 5px;
+}
+
+.navbar-collapse {
+  padding-right: 15px;
+  padding-left: 15px;
+  overflow-x: visible;
+  -webkit-overflow-scrolling: touch;
+  border-top: 1px solid transparent;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+
+.navbar-collapse.collapse {
+  display: none !important;
+}
+
+.navbar-collapse.collapse.in {
+  display: block !important;
+}
+
+.navbar-nav {
+  margin: 7.5px -15px;
+  list-style: none;
+}
+
+.navbar-nav > li {
+  padding: 10px 15px;
+}
+
+.navbar-nav > li > a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 20px;
+  color: #2d5016;
+  font-weight: bold;
+}
+
+.call-section {
+  background: #2d5016;
+  font-size: 18pt;
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  letter-spacing: 0.2rem;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  box-shadow: 0px 0px 6px #000;
+}
+
+.call-section a {
+  color: #fff;
+}
+
+.txt-email-section {
+  width: 100%;
+  overflow: auto;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border-bottom: 3px solid #2d5016;
+}
+
+.cta-box-menu {
+  float: left;
+  width: 33.33%;
+  text-align: center;
+}
+
+.cta-box-menu a {
+  color: #2d5016;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+}
+
+/* Desktop Menu */
+.desktop-menu {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 900;
+  background: #fff;
+  display: none;
+}
+
+.desktop-menu-top-section {
+  top: 0;
+  width: 100%;
+  overflow: auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.desktop-menu-left {
+  float: left;
+  width: 25%;
+}
+
+.desktop-menu-middle {
+  float: right;
+  text-align: right;
+  font-size: 30pt;
+}
+
+.desktop-menu-middle a {
+  color: #2d5016;
+}
+
+.desktop-menu-middle h2 {
+  font-size: 30pt;
+  color: #2d5016;
+  margin-top: 0pt;
+  margin-bottom: 0px;
+}
+
+.desktop-menu-middle h3 {
+  color: #5a3e1b;
+  margin-top: 0px;
+  font-size: 16pt;
+}
+
+.desktop-menu-middle h3 a {
+  color: #2d5016;
+  margin-top: 0px;
+}
+
+.desktop-menu-links {
+  color: #fff;
+  font-size: 12pt;
+  text-align: center;
+  background: #2d5016;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.desktop-menu-links ul {
+  margin-bottom: 0px;
+  list-style: none;
+  padding: 0;
+}
+
+.desktop-menu-links ul li {
+  display: inline;
+  color: #fff;
+  padding-right: 40px;
+}
+
+.desktop-menu-links ul li a {
+  color: #fff;
+}
+
+/* Main Top Section */
+.main-top-section {
+  background: #2d5016;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.main-top-section h1 {
+  color: #fff;
+  font-size: 22pt;
+  font-weight: normal;
+  text-align: center;
+}
+
+.main-top-section h2 {
+  text-align: center;
+  color: #fff;
+  letter-spacing: 0.2rem;
+  line-height: 40px;
+}
+
+.main-top-section h3 {
+  color: #fff;
+  font-size: 12pt;
+  font-weight: normal;
+  text-align: center;
+  letter-spacing: 0.15rem;
+}
+
+.main-top-section hr {
+  background-color: #fff;
+  border: none;
+  height: 5px;
+}
+
+.starspic {
+  text-align: center;
+}
+
+.starspic img {
+  width: 190px;
+}
+
+.cta-buttons-top-section {
+  width: 100%;
+  overflow: auto;
+  margin-top: 20px;
+}
+
+.header-cta-call {
+  float: left;
+  width: 94%;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.header-cta-email {
+  float: left;
+  width: 94%;
+  margin-top: 20px;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.call-button {
+  border-radius: 10px;
+  background: #2d5016;
+  color: #fff;
+  border: 2px solid #1a3009;
+  font-size: 14pt;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 0.1rem;
+  line-height: 52pt;
+}
+
+.email-button {
+  border-radius: 10px;
+  background: #5a3e1b;
+  color: #fff;
+  border: 2px solid #3d2a12;
+  font-size: 14pt;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 0.1rem;
+  line-height: 52pt;
+}
+
+/* Coupon Bar */
+.coupon-bar {
+  border-left: 1px dashed #2d5016;
+  border-right: 1px dashed #2d5016;
+  border-bottom: 1px dashed #2d5016;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  padding: 0px;
+  width: 100%;
+  overflow: auto;
+}
+
+.coupon-bar h2 {
+  color: #2d5016;
+  padding-left: 10px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  padding-top: 5px;
+  font-size: 8pt;
+}
+
+.coupon-bar-left {
+  float: left;
+  text-align: left;
+  padding-bottom: 0px;
+}
+
+.coupon-bar-left img {
+  width: 63px;
+  padding-left: 5px;
+  margin-top: -1px;
+}
+
+.coupon-bar-middle {
+  float: left;
+  padding-left: 0px;
+  text-align: left;
+  padding-top: 1px;
+}
+
+/* Gallery Section */
+.image-gallery {
+  width: 100%;
+  overflow: auto;
+  background: #fff;
+}
+
+.image-gallery h2 {
+  text-align: center;
+  color: #2d5016;
+  font-weight: bold;
+  font-size: 17pt;
+  letter-spacing: 0.1rem;
+}
+
+.gallery-details {
+  padding: 10px;
+}
+
+.gallery-pics {
+  overflow: auto;
+  height: 325px;
+}
+
+.gallery-picture {
+  float: left;
+  width: 33.33%;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.gallery-picture img {
+  width: 88%;
+  text-align: center;
+  box-shadow: 1px 1px 2px #000;
+}
+
+/* Red Main Sections */
+.red-main-sections {
+  background: #2d5016;
+  box-shadow: 0px 0px 6px #000;
+  margin-top: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.red-main-sections h2 {
+  font-size: 20pt;
+  color: #fff;
+  text-shadow: 1px 1px 2px #000;
+  padding: 20px;
+  line-height: 26pt;
+  letter-spacing: 0.1rem;
+  text-align: center;
+  margin: 0px;
+}
+
+.red-main-sections h3 {
+  color: #ffe300;
+  font-size: 18pt;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+  line-height: 18pt;
+  text-shadow: 1px 1px 2px #000;
+  margin: 0px;
+}
+
+.red-main-sections h4 {
+  color: #fff;
+  font-size: 14pt;
+  text-align: center;
+  font-weight: normal;
+  padding-top: 0px;
+  padding-bottom: 20px;
+  margin: 0px;
+}
+
+.red-main-sections h5 {
+  font-size: 16pt;
+  color: #fff;
+  text-shadow: 1px 1px 2px #000;
+  padding: 20px;
+  line-height: 20pt;
+  letter-spacing: 0.1rem;
+  text-align: center;
+  margin: 0px;
+}
+
+.red-main-sections h6 {
+  font-size: 11pt;
+  color: #fff;
+  text-shadow: 1px 1px 2px #000;
+  padding-left: 3px;
+  padding-right: 3px;
+  padding-top: 0px;
+  padding-bottom: 20px;
+  line-height: 13pt;
+  letter-spacing: 0.1rem;
+  text-align: center;
+  font-weight: normal;
+  margin: 0px;
+}
+
+/* Coupon Section */
+.coupon-section {
+  width: 95%;
+  margin-left: 2.5%;
+  overflow: auto;
+  margin-top: 30px;
+}
+
+.coupon-section-left {
+  float: left;
+  color: #2d5016;
+  font-weight: bold;
+  border: 3px dashed #888888;
+  padding: 5px;
+  width: 48%;
+  margin-right: 2%;
+}
+
+.coupon-section-left h2 {
+  font-size: 24pt;
+  text-align: center;
+  margin-bottom: 0px;
+  margin-top: 15px;
+}
+
+.coupon-section-left h3 {
+  font-size: 11pt;
+  text-align: center;
+  margin-bottom: 0px;
+  margin-top: 5px;
+}
+
+.coupon-section-left h4 {
+  font-size: 14pt;
+  text-align: center;
+  margin-bottom: 0px;
+  margin-top: 15px;
+}
+
+.coupon-section-left h5 {
+  font-size: 8pt;
+  text-align: center;
+  margin-bottom: 0px;
+  margin-top: 15px;
+}
+
+.coupon-section-left h6 {
+  font-size: 8pt;
+  text-align: center;
+  margin-bottom: 0px;
+  margin-top: 5px;
+  color: #000;
+}
+
+.coupon-section-left img {
+  width: 98%;
+  margin-left: 1%;
+}
+
+.coupon-section-right {
+  float: right;
+  color: #5a3e1b;
+  font-weight: bold;
+  border: 3px dashed #888888;
+  padding: 5px;
+  width: 48%;
+  margin-left: 2%;
+}
+
+.coupon-section-right h2 {
+  font-size: 28pt;
+  text-align: center;
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+
+.coupon-section-right h3 {
+  font-size: 11pt;
+  text-align: center;
+  margin-bottom: 0px;
+  margin-top: 5px;
+}
+
+.coupon-section-right h4 {
+  font-size: 10pt;
+  text-align: center;
+  margin-bottom: 0px;
+  margin-top: 19px;
+}
+
+.coupon-section-right h5 {
+  font-size: 14pt;
+  text-align: center;
+  margin-bottom: 0px;
+  margin-top: 26px;
+  color: #000;
+}
+
+.coupon-section-right h6 {
+  font-size: 10pt;
+  text-align: center;
+  margin-bottom: 0px;
+  margin-top: 5px;
+  color: #000;
+}
+
+.coupon-section-right img {
+  width: 98%;
+  margin-left: 1%;
+}
+
+/* Two Column Section */
+.two-column-section {
+  width: 100%;
+  overflow: auto;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-top: 30px;
+  font-size: 16pt;
+  line-height: 20pt;
+}
+
+.two-column-section h2 {
+  font-size: 14pt;
+  font-weight: bold;
+  text-align: left;
+  margin-top: 0px;
+}
+
+.two-column-section-left-title {
+  width: 100%;
+  float: left;
+  padding-left: 10px;
+}
+
+.two-column-section-right-title {
+  width: 100%;
+  float: right;
+  padding-right: 10px;
+}
+
+.two-column-section-right-pic {
+  width: 45%;
+  float: right;
+  margin-right: 10px;
+}
+
+.two-column-section-right-pic img {
+  width: 96%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.two-column-section-left-pic {
+  width: 45%;
+  float: left;
+}
+
+.two-column-section-left-pic img {
+  width: 96%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.two-column-hr hr {
+  width: 55%;
+  text-align: center;
+  border-top: 2px dashed #2d5016;
+  margin: 0 auto;
+}
+
+/* Promise Section */
+.promise-section {
+  width: 100%;
+  font-size: 12pt;
+  text-align: left;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.promise-section h3 {
+  text-align: left;
+  font-size: 17pt;
+  color: #2d5016;
+  font-weight: bold;
+}
+
+/* White Section */
+.white-section {
+  width: 100%;
+  padding: 2.5%;
+  margin-top: 30px;
+}
+
+.white-section p {
+  font-size: 11pt;
+  line-height: 14pt;
+}
+
+.white-section h2 {
+  color: #2d5016;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+  font-size: 16pt;
+}
+
+/* Recent Jobs */
+.recent-jobs {
+  width: 100%;
+  overflow: auto;
+  border-bottom: 1px solid #000;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 15pt;
+  line-height: 18pt;
+}
+
+.recent-jobs h2 {
+  color: #2d5016;
+  text-align: left;
+  font-size: 14pt;
+  font-weight: bold;
+}
+
+.recent-jobs h3 {
+  color: #000;
+  text-align: left;
+  font-size: 10pt;
+  font-weight: normal;
+  margin-top: 0px;
+}
+
+.recent-jobs-left {
+  width: 70%;
+  float: left;
+}
+
+.recent-jobs-right {
+  width: 30%;
+  float: right;
+}
+
+.recent-jobs-right img {
+  width: 98%;
+  padding-left: 2%;
+}
+
+/* Reviews Section */
+.reviews-section {
+  z-index: 150;
+  width: 94%;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-top: 30px;
+}
+
+/* Contact Section */
+.contact-section {
+  width: 100%;
+  overflow: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.contact-section h2 {
+  font-size: 16pt;
+  font-weight: bold;
+  text-align: left;
+  color: #2d5016;
+}
+
+.contact-section h3 {
+  font-size: 16pt;
+  font-weight: bold;
+  text-align: left;
+  color: #2d5016;
+}
+
+.hr-small {
+  width: 40%;
+  text-align: left;
+  border-bottom: 1px solid #000;
+  height: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* FAQ Section */
+.faq-section {
+  width: 100%;
+  overflow: auto;
+  padding: 10px;
+  font-size: 16pt;
+  line-height: 26pt;
+}
+
+.faq-section h2 {
+  text-align: center;
+  color: #2d5016;
+  font-weight: bold;
+  font-size: 19pt;
+}
+
+.faq-section h3 {
+  text-align: left;
+  color: #000;
+  font-weight: bold;
+  font-size: 16pt;
+}
+
+/* Hours Section */
+.hours-section {
+  width: 100%;
+  overflow: auto;
+  padding: 10px;
+  margin-top: 30px;
+}
+
+.hours-section-day {
+  float: left;
+  width: 40%;
+  font-size: 12pt;
+  font-weight: bold;
+}
+
+.hours-section-time {
+  float: left;
+  width: 55%;
+  font-size: 12pt;
+  font-weight: normal;
+  margin-left: 5%;
+}
+
+/* Map Section */
+.map-section {
+  width: 98%;
+  overflow: auto;
+  padding: 1%;
+}
+
+.map-section img {
+  width: 100%;
+  height: auto;
+}
+
+/* Desktop Responsive (min-width: 766px) */
+@media screen and (min-width: 766px) {
+  .mobile-menu {
+    display: none;
+  }
+
+  .desktop-menu {
+    display: block;
+  }
+
+  .main-top-section h1 {
+    font-size: 22pt;
+  }
+
+  .main-top-section h2 {
+    font-size: 60pt;
+    line-height: 77pt;
+  }
+
+  .main-top-section h3 {
+    font-size: 24pt;
+  }
+
+  .starspic img {
+    width: 200px;
+  }
+
+  .cta-buttons-top-section {
+    width: 760px;
+    margin: 20px auto 0;
+    padding-top: 20px;
+  }
+
+  .header-cta-call {
+    width: 45%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+  }
+
+  .header-cta-email {
+    width: 45%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top: 0;
+  }
+
+  .call-button,
+  .email-button {
+    font-size: 20pt;
+    line-height: 62pt;
+  }
+
+  .coupon-bar {
+    width: 766px;
+    margin: 0 auto;
+    border-width: 4px;
+  }
+
+  .coupon-bar h2 {
+    font-size: 17pt;
+    padding-top: 12px;
+  }
+
+  .coupon-bar-left img {
+    width: 200px;
+    padding-left: 20px;
+    margin-top: -4px;
+  }
+
+  .coupon-bar-middle {
+    padding-top: 3px;
+  }
+
+  .image-gallery h2 {
+    font-size: 30pt;
+    line-height: 40pt;
+  }
+
+  .gallery-details {
+    font-size: 18pt;
+  }
+
+  .gallery-picture {
+    width: 20%;
+  }
+
+  .red-main-sections h2 {
+    font-size: 42pt;
+    line-height: 50pt;
+  }
+
+  .red-main-sections h3 {
+    font-size: 36pt;
+    line-height: 42pt;
+  }
+
+  .red-main-sections h4 {
+    font-size: 23pt;
+    line-height: 33pt;
+  }
+
+  .red-main-sections h5 {
+    font-size: 26pt;
+    line-height: 30pt;
+  }
+
+  .red-main-sections h6 {
+    font-size: 20pt;
+    line-height: 30pt;
+  }
+
+  .coupon-section {
+    width: 760px;
+    margin: 30px auto 0;
+  }
+
+  .coupon-section-left,
+  .coupon-section-right {
+    height: 520px;
+  }
+
+  .coupon-section-left h2 {
+    font-size: 56pt;
+    line-height: 66pt;
+  }
+
+  .coupon-section-left h3 {
+    font-size: 29pt;
+    line-height: 40pt;
+  }
+
+  .coupon-section-left h4 {
+    font-size: 30pt;
+    line-height: 45pt;
+  }
+
+  .coupon-section-left h5 {
+    font-size: 17pt;
+    line-height: 30pt;
+    margin-top: 20px;
+  }
+
+  .coupon-section-left h6 {
+    font-size: 17pt;
+    margin-top: 16px;
+  }
+
+  .coupon-section-left img {
+    margin-top: 30px;
+  }
+
+  .coupon-section-right h2 {
+    font-size: 56pt;
+    line-height: 66pt;
+    margin-top: 5px;
+  }
+
+  .coupon-section-right h3 {
+    font-size: 29pt;
+    line-height: 40pt;
+  }
+
+  .coupon-section-right h4 {
+    font-size: 23pt;
+    line-height: 33pt;
+    margin-top: 30px;
+  }
+
+  .coupon-section-right h5 {
+    font-size: 30pt;
+    margin-top: 37px;
+  }
+
+  .coupon-section-right img {
+    margin-top: 61px;
+  }
+
+  .two-column-section h2 {
+    font-size: 30pt;
+    line-height: 36pt;
+  }
+
+  .white-section {
+    width: 96%;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+
+  .white-section p {
+    font-size: 16pt;
+    line-height: 24pt;
+  }
+
+  .white-section h2 {
+    font-size: 25pt;
+    line-height: 35pt;
+  }
+
+  .promise-section {
+    width: 96%;
+    margin-left: 3%;
+    margin-right: 3%;
+    font-size: 16pt;
+    line-height: 22pt;
+  }
+
+  .promise-section h3 {
+    font-size: 22pt;
+    line-height: 28pt;
+  }
+
+  .recent-jobs {
+    width: 94%;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+
+  .recent-jobs h2 {
+    font-size: 22pt;
+    line-height: 30pt;
+  }
+
+  .recent-jobs h3 {
+    font-size: 16pt;
+    line-height: 22pt;
+  }
+
+  .contact-section h2 {
+    font-size: 38pt;
+    line-height: 44pt;
+  }
+
+  .faq-section {
+    width: 94%;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+
+  .faq-section h3 {
+    font-size: 22pt;
+    line-height: 30pt;
+  }
+
+  .hours-section {
+    width: 60%;
+    margin-left: 20%;
+    padding: 20px;
+    border: 1px solid #000;
+  }
+
+  .hours-section-day,
+  .hours-section-time {
+    font-size: 16pt;
+  }
+}

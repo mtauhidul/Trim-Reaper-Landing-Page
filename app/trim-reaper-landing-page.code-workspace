@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": ".."
+	},
+	{
+		"path": "../../../../../Downloads/reference"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "reference"
+  }
+}
