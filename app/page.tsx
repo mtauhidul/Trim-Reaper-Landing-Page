@@ -667,10 +667,6 @@ export default function Home() {
       </div>
 
       {/* Reviews Section */}
-      <div className="red-main-sections">
-        <a id="reviews"></a>
-        <h5>1,000+ Google Customer Reviews</h5>
-      </div>
 
       <div className="container">
         <div className="reviews-section">
