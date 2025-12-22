@@ -192,24 +192,6 @@ export default function Home() {
         </div>
       </div>
 
-      {/* Coupon Bar */}
-      <div className="coupon-bar">
-        <div className="coupon-bar-left">
-          <h2>
-            Mention these coupons when you call!{" "}
-            <Image src="/bar-code.png" alt="barcode" width={60} height={40} />
-          </h2>
-        </div>
-
-        <div className="coupon-bar-middle">
-          <h2>
-            <a href="sms:+12135550123?&body=Hey, I would like to get a $50 OFF coupon on my tree trimming service.">
-              $50 OFF Any Tree Trimming Service
-            </a>
-          </h2>
-        </div>
-      </div>
-
       {/* Image Gallery */}
       <div className="container">
         <div className="image-gallery">
