@@ -2,7 +2,6 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import Script from "next/script";
 import { useState } from "react";
 import "./styles.css";
 
@@ -44,22 +43,22 @@ export default function Home() {
               >
                 <ul className="nav navbar-nav">
                   <li>
-                    <Link href="/">Tree Trimming</Link>
+                    <a href="#services">Tree Trimming</a>
                   </li>
                   <li className="active">
-                    <Link href="/">Home</Link>
+                    <a href="#top">Home</a>
                   </li>
                   <li>
-                    <Link href="/service">Services</Link>
+                    <a href="#services">Services</a>
                   </li>
                   <li>
-                    <Link href="/reviews">Reviews</Link>
+                    <a href="#reviews">Reviews</a>
                   </li>
                   <li>
-                    <Link href="/about-us">About</Link>
+                    <a href="#about">About</a>
                   </li>
                   <li>
-                    <Link href="/contact-us">Contact</Link>
+                    <a href="#contact">Contact</a>
                   </li>
                 </ul>
               </div>
@@ -125,19 +124,19 @@ export default function Home() {
           <div className="container">
             <ul>
               <li>
-                <Link href="/">Home</Link>
+                <a href="#top">Home</a>
               </li>
               <li>
-                <Link href="/service">Services</Link>
+                <a href="#services">Services</a>
               </li>
               <li>
-                <Link href="/reviews">Reviews</Link>
+                <a href="#reviews">Reviews</a>
               </li>
               <li>
-                <Link href="/about-us">About</Link>
+                <a href="#about">About</a>
               </li>
               <li>
-                <Link href="/contact-us">Contact</Link>
+                <a href="#contact">Contact</a>
               </li>
             </ul>
           </div>
@@ -344,6 +343,7 @@ export default function Home() {
 
       {/* We'd Love To Section */}
       <div className="red-main-sections">
+        <a id="about"></a>
         <h2>
           We&apos;d Love To{" "}
           <span
@@ -587,6 +587,7 @@ export default function Home() {
 
       {/* Other Types of Jobs */}
       <div className="red-main-sections">
+        <a id="services"></a>
         <h5>Our Tree Services</h5>
       </div>
 
@@ -659,6 +660,7 @@ export default function Home() {
 
       {/* Reviews Section */}
       <div className="red-main-sections">
+        <a id="reviews"></a>
         <h5>1,000+ Google Customer Reviews</h5>
       </div>
 
@@ -673,7 +675,7 @@ export default function Home() {
 
       {/* Contact Section */}
       <div className="red-main-sections">
-        <a id="emailus"></a>
+        <a id="contact"></a>
         <h3>Call Us. Text Us. Email Us.</h3>
         <h4>It&apos;s Really Easy To Reach Us</h4>
       </div>
@@ -681,7 +683,7 @@ export default function Home() {
       <div className="container">
         <div className="contact-section">
           <h2>
-            Call Us: <a href="tel:16783298513">(678) 329-8513</a>
+            Call Us: <a href="tel:12135550123">(213) 555-0123</a>
           </h2>
         </div>
 
@@ -689,7 +691,7 @@ export default function Home() {
 
         <div className="contact-section">
           <h2>
-            Text Us: <a href="sms:16783298513">(678) 329-8513</a>
+            Text Us: <a href="sms:12135550123">(213) 555-0123</a>
           </h2>
         </div>
 
@@ -698,10 +700,10 @@ export default function Home() {
         <div className="contact-section">
           <h2>Get A Free Quote:</h2>
           <div id="3bd62871-3373-4f9e-a89c-850d995c8088"></div>
-          <Script
-            src="https://d3ey4db7ze2ot6.cloudfront.net/static/embed.js"
-            data-jobber-request-id="3bd62871-3373-4f9e-a89c-850d995c8088"
-            strategy="lazyOnload"
+          <div
+            dangerouslySetInnerHTML={{
+              __html: `<script src="https://d3ey4db7ze2ot6.cloudfront.net/static/embed.js" data-jobber-request-id="3bd62871-3373-4f9e-a89c-850d995c8088"></script>`,
+            }}
           />
         </div>
       </div>
@@ -802,10 +804,10 @@ export default function Home() {
         <div className="contact-section">
           <h2>Get A Free Quote:</h2>
           <div id="3bd62871-3373-4f9e-a89c-850d995c8088-2"></div>
-          <Script
-            src="https://d3ey4db7ze2ot6.cloudfront.net/static/embed.js"
-            data-jobber-request-id="3bd62871-3373-4f9e-a89c-850d995c8088"
-            strategy="lazyOnload"
+          <div
+            dangerouslySetInnerHTML={{
+              __html: `<script src="https://d3ey4db7ze2ot6.cloudfront.net/static/embed.js" data-jobber-request-id="3bd62871-3373-4f9e-a89c-850d995c8088"></script>`,
+            }}
           />
         </div>
       </div>
@@ -889,48 +891,52 @@ export default function Home() {
         <div className="faq-section">
           <h3>1. How Long Has Trim Reaper Been in Business?</h3>
           <p>
-            We&apos;ve been serving the Greater Los Angeles area with
-            professional tree trimming and brush removal services. We&apos;re a
-            family-owned business, not a franchise.
+            The first time we trimmed trees was back in 2016. The first time we
+            mastered brush removal was in 2017. Yes, some companies have been
+            cutting trees for longer...but nobody has been doing it with our
+            level of care and precision for longer.
           </p>
           <p>
-            When you call Trim Reaper, you&apos;re talking directly to the
-            owners. No corporate runaround, just straight talk and hard work.
+            We are not stuck in the old ways of tree service but we&apos;ve
+            pioneered newer and better safety techniques with enough experience
+            and history to not be &quot;new&quot; anymore.
           </p>
 
           <a id="faq2"></a>
           <h3>2. Who will come to my house?</h3>
           <p>
-            Our lead foreman Gilbertos handles the climbing and cutting.
-            He&apos;s experienced, careful, and takes safety seriously.
+            We do a lot of work to make sure every technician is the best we can
+            find and train. Our technicians will knock on your door and announce
+            their arrival and gather any additional information they should
+            know.
           </p>
           <p>
-            Our crew will introduce themselves when they arrive and walk you
-            through the work plan.
+            We love hearing all the positive feedback from customers about how
+            they love our employees.
           </p>
-          <p>
-            We treat your property like our own and leave it cleaner than we
-            found it.
-          </p>
+          <p>FYI: We love them too!</p>
 
           <a id="faq3"></a>
           <h3>3. Is There A Guarantee?</h3>
-          <p>We stand behind our work 100%.</p>
+          <p>We guarantee our work for 30 days.</p>
           <p>What does that mean?</p>
           <p>
-            If you&apos;re not satisfied with the job, we&apos;ll make it right.
-            No hassle.
+            That means if there is something we missed we will come back and fix
+            it for free within 30 days.
           </p>
-          <p>What doesn&apos;t that include?</p>
-          <p>Natural regrowth or new storm damage after we complete the job.</p>
+          <p>What doesn&apos;t that mean?</p>
+          <p>
+            That doesn&apos;t include &quot;NEW&quot; growth or debris that
+            falls after we leave.
+          </p>
 
           <a id="faq4"></a>
           <h3>4. Do You Accept Credit Cards, Check, Cash?</h3>
           <p>Yes, yes, and yes!</p>
-          <p>We accept all major payment methods.</p>
           <p>
-            Payment is due upon completion of work. We make it easy and
-            hassle-free.
+            We don&apos;t care how we get paid as long as we get paid. We
+            process all payments through our secure software that manages all
+            jobs, notes, and customers efficiently.
           </p>
         </div>
       </div>
