@@ -519,37 +519,38 @@ a {
 }
 
 .coupon-section-left h2 {
-  font-size: 24pt;
+  font-size: 20pt;
   text-align: center;
   margin-bottom: 0px;
-  margin-top: 15px;
+  margin-top: 10px;
 }
 
 .coupon-section-left h3 {
-  font-size: 11pt;
+  font-size: 9pt;
   text-align: center;
   margin-bottom: 0px;
   margin-top: 5px;
 }
 
 .coupon-section-left h4 {
-  font-size: 14pt;
+  font-size: 11pt;
   text-align: center;
   margin-bottom: 0px;
-  margin-top: 15px;
+  margin-top: 10px;
 }
 
 .coupon-section-left h5 {
-  font-size: 8pt;
+  font-size: 7pt;
   text-align: center;
   margin-bottom: 0px;
-  margin-top: 15px;
+  margin-top: 8px;
+  line-height: 9pt;
 }
 
 .coupon-section-left h6 {
   font-size: 8pt;
   text-align: center;
-  margin-bottom: 0px;
+  margin-bottom: 5px;
   margin-top: 5px;
   color: #000;
 }
@@ -570,32 +571,33 @@ a {
 }
 
 .coupon-section-right h2 {
-  font-size: 28pt;
+  font-size: 24pt;
   text-align: center;
   margin-bottom: 0px;
   margin-top: 10px;
 }
 
 .coupon-section-right h3 {
-  font-size: 11pt;
+  font-size: 9pt;
   text-align: center;
   margin-bottom: 0px;
   margin-top: 5px;
 }
 
 .coupon-section-right h4 {
-  font-size: 10pt;
+  font-size: 9pt;
   text-align: center;
   margin-bottom: 0px;
-  margin-top: 19px;
+  margin-top: 12px;
 }
 
 .coupon-section-right h5 {
-  font-size: 14pt;
+  font-size: 11pt;
   text-align: center;
   margin-bottom: 0px;
-  margin-top: 26px;
+  margin-top: 15px;
   color: #000;
+  line-height: 14pt;
 }
 
 .coupon-section-right h6 {
@@ -959,69 +961,71 @@ a {
   }
 
   .coupon-section {
-    width: 760px;
+    width: 660px;
     margin: 30px auto 0;
   }
 
   .coupon-section-left,
   .coupon-section-right {
-    height: 520px;
+    height: 420px;
+    overflow: hidden;
   }
 
   .coupon-section-left h2 {
-    font-size: 56pt;
-    line-height: 66pt;
+    font-size: 44pt;
+    line-height: 50pt;
   }
 
   .coupon-section-left h3 {
-    font-size: 29pt;
-    line-height: 40pt;
+    font-size: 22pt;
+    line-height: 28pt;
   }
 
   .coupon-section-left h4 {
-    font-size: 30pt;
-    line-height: 45pt;
+    font-size: 24pt;
+    line-height: 32pt;
   }
 
   .coupon-section-left h5 {
-    font-size: 17pt;
-    line-height: 30pt;
-    margin-top: 20px;
+    font-size: 14pt;
+    line-height: 18pt;
+    margin-top: 15px;
   }
 
   .coupon-section-left h6 {
-    font-size: 17pt;
-    margin-top: 16px;
+    font-size: 15pt;
+    margin-top: 12px;
   }
 
   .coupon-section-left img {
-    margin-top: 30px;
+    margin-top: 20px;
   }
 
   .coupon-section-right h2 {
-    font-size: 56pt;
-    line-height: 66pt;
+    font-size: 44pt;
+    line-height: 50pt;
     margin-top: 5px;
   }
 
   .coupon-section-right h3 {
-    font-size: 29pt;
-    line-height: 40pt;
+    font-size: 22pt;
+    line-height: 28pt;
   }
 
   .coupon-section-right h4 {
-    font-size: 23pt;
-    line-height: 33pt;
-    margin-top: 30px;
+    font-size: 18pt;
+    line-height: 24pt;
+    margin-top: 20px;
   }
 
   .coupon-section-right h5 {
-    font-size: 30pt;
-    margin-top: 37px;
+    font-size: 22pt;
+    line-height: 28pt;
+    margin-top: 25px;
   }
 
   .coupon-section-right img {
-    margin-top: 61px;
+    margin-top: 45px;
   }
 
   .two-column-section h2 {

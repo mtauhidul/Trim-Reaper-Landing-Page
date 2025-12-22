@@ -8,6 +8,26 @@ import "./styles.css";
 export default function Home() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
+  // TODO: Uncomment when correct Jobber embed URL is available
+  // useEffect(() => {
+  //   // Load Jobber script dynamically
+  //   const script = document.createElement("script");
+  //   script.src = "https://d3ey4db7ze2ot6.cloudfront.net/static/embed.js";
+  //   script.setAttribute("data-jobber-request-id", "3bd62871-3373-4f9e-a89c-850d995c8088");
+  //   script.async = true;
+  //   script.onerror = () => {
+  //     console.error("Failed to load Jobber script. Please verify the URL and request ID.");
+  //   };
+  //   document.body.appendChild(script);
+
+  //   return () => {
+  //     // Cleanup on unmount
+  //     if (script.parentNode) {
+  //       script.parentNode.removeChild(script);
+  //     }
+  //   };
+  // }, []);
+
   return (
     <>
       {/* Mobile Menu */}
@@ -30,9 +50,9 @@ export default function Home() {
                   className="img-responsive"
                   src="/images/full_logo.png"
                   alt="Trim Reaper - Tree Trimming & Brush Removal"
-                  width={250}
-                  height={50}
-                  style={{ maxWidth: "250px", marginTop: "2px" }}
+                  width={150}
+                  height={30}
+                  style={{ width: "150px", height: "auto", marginTop: "2px" }}
                 />
               </div>
 
@@ -97,9 +117,9 @@ export default function Home() {
                 className="img-responsive"
                 src="/images/full_logo.png"
                 alt="Trim Reaper - Tree Trimming & Brush Removal"
-                width={280}
-                height={112}
-                style={{ maxWidth: "280px", marginTop: "0px" }}
+                width={168}
+                height={67}
+                style={{ width: "168px", height: "auto", marginTop: "0px" }}
               />
             </div>
 
@@ -189,24 +209,6 @@ export default function Home() {
               <div className="email-button">Get Free Estimate</div>
             </a>
           </div>
-        </div>
-      </div>
-
-      {/* Coupon Bar */}
-      <div className="coupon-bar">
-        <div className="coupon-bar-left">
-          <h2>
-            Sunday&apos;s <span style={{ color: "#2d5016" }}>Coupon</span>{" "}
-            <Image src="/bar-code.png" alt="barcode" width={60} height={40} />
-          </h2>
-        </div>
-
-        <div className="coupon-bar-middle">
-          <h2>
-            <a href="sms:+12135550123?&body=Hey, I would like to get a $50 OFF coupon on my tree trimming service.">
-              $50 OFF Tree Trimming
-            </a>
-          </h2>
         </div>
       </div>
 
@@ -309,10 +311,7 @@ export default function Home() {
       {/* Coupons Section */}
       <a id="coupons"></a>
       <div className="red-main-sections">
-        <h2>
-          <span style={{ color: "#ffe300" }}>2 Web Specials.</span> Click
-          Coupon!
-        </h2>
+        <h2>Mention these coupons when you call!</h2>
       </div>
 
       <div className="coupon-section">
@@ -323,10 +322,10 @@ export default function Home() {
           <div className="coupon-section-left">
             <h3>Limited Time</h3>
             <h2>$50 OFF</h2>
-            <h4>Tree Trimming Service</h4>
-            <h5>First Time Customers</h5>
-            <h6>Minimum job size applies</h6>
+            <h4>Any Tree Trimming Service</h4>
+            <h5>First time customers only. Minimum job size applies.</h5>
             <Image src="/bar-code.png" alt="barcode" width={100} height={60} />
+            <h6>CODE: TRIM50</h6>
           </div>
         </a>
 
@@ -334,9 +333,18 @@ export default function Home() {
           <div className="coupon-section-right">
             <h3>Most Popular</h3>
             <h2>FREE</h2>
-            <h4>On-Site Consultation</h4>
-            <h5>No Pressure, Just Honest Advice</h5>
-            <Image src="/bar-code.png" alt="barcode" width={100} height={60} />
+            <h3>On-Site Consultation</h3>
+            <h4>We come to you. No pressure, just honest advice.</h4>
+            <Image
+              src="/bar-code.png"
+              alt="barcode"
+              width={100}
+              height={60}
+              style={{ marginTop: "25px" }}
+            />
+            <h6 style={{ fontSize: "20px", marginTop: "10px" }}>
+              CODE: FREESTIMATE
+            </h6>
           </div>
         </a>
       </div>
@@ -700,11 +708,6 @@ export default function Home() {
         <div className="contact-section">
           <h2>Get A Free Quote:</h2>
           <div id="3bd62871-3373-4f9e-a89c-850d995c8088"></div>
-          <div
-            dangerouslySetInnerHTML={{
-              __html: `<script src="https://d3ey4db7ze2ot6.cloudfront.net/static/embed.js" data-jobber-request-id="3bd62871-3373-4f9e-a89c-850d995c8088"></script>`,
-            }}
-          />
         </div>
       </div>
 
@@ -804,11 +807,6 @@ export default function Home() {
         <div className="contact-section">
           <h2>Get A Free Quote:</h2>
           <div id="3bd62871-3373-4f9e-a89c-850d995c8088-2"></div>
-          <div
-            dangerouslySetInnerHTML={{
-              __html: `<script src="https://d3ey4db7ze2ot6.cloudfront.net/static/embed.js" data-jobber-request-id="3bd62871-3373-4f9e-a89c-850d995c8088"></script>`,
-            }}
-          />
         </div>
       </div>
 
