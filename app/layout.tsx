@@ -70,11 +70,10 @@ export default function RootLayout({
               "url": "https://www.videoask.com/fk23esblj",
               "options": {
                 "widgetType": "VideoThumbnailExtraLarge",
-                "text": "",
-                "backgroundColor": "#7D00FE",
-                "position": "bottom-right",
-                "dismissible": false,
-                "videoPosition": "center center"
+                "text": "Contact me",
+                "backgroundColor": "#F4C10A",
+                "position": "bottom-left",
+                "dismissible": true
               }
             }
           `}

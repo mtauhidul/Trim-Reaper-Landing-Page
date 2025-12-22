@@ -8,26 +8,6 @@ import "./styles.css";
 export default function Home() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
-  // TODO: Uncomment when correct Jobber embed URL is available
-  // useEffect(() => {
-  //   // Load Jobber script dynamically
-  //   const script = document.createElement("script");
-  //   script.src = "https://d3ey4db7ze2ot6.cloudfront.net/static/embed.js";
-  //   script.setAttribute("data-jobber-request-id", "3bd62871-3373-4f9e-a89c-850d995c8088");
-  //   script.async = true;
-  //   script.onerror = () => {
-  //     console.error("Failed to load Jobber script. Please verify the URL and request ID.");
-  //   };
-  //   document.body.appendChild(script);
-
-  //   return () => {
-  //     // Cleanup on unmount
-  //     if (script.parentNode) {
-  //       script.parentNode.removeChild(script);
-  //     }
-  //   };
-  // }, []);
-
   return (
     <>
       {/* Mobile Menu */}
@@ -52,7 +32,7 @@ export default function Home() {
                   alt="Trim Reaper - Tree Trimming & Brush Removal"
                   width={150}
                   height={30}
-                  style={{ width: "150px", height: "auto", marginTop: "2px" }}
+                  style={{ maxWidth: "150px", marginTop: "2px" }}
                 />
               </div>
 
@@ -119,7 +99,7 @@ export default function Home() {
                 alt="Trim Reaper - Tree Trimming & Brush Removal"
                 width={168}
                 height={67}
-                style={{ width: "168px", height: "auto", marginTop: "0px" }}
+                style={{ maxWidth: "168px", marginTop: "0px" }}
               />
             </div>
 
@@ -209,6 +189,24 @@ export default function Home() {
               <div className="email-button">Get Free Estimate</div>
             </a>
           </div>
+        </div>
+      </div>
+
+      {/* Coupon Bar */}
+      <div className="coupon-bar">
+        <div className="coupon-bar-left">
+          <h2>
+            Mention these coupons when you call!{" "}
+            <Image src="/bar-code.png" alt="barcode" width={60} height={40} />
+          </h2>
+        </div>
+
+        <div className="coupon-bar-middle">
+          <h2>
+            <a href="sms:+12135550123?&body=Hey, I would like to get a $50 OFF coupon on my tree trimming service.">
+              $50 OFF Any Tree Trimming Service
+            </a>
+          </h2>
         </div>
       </div>
 
@@ -704,6 +702,11 @@ export default function Home() {
         <div className="contact-section">
           <h2>Get A Free Quote:</h2>
           <div id="3bd62871-3373-4f9e-a89c-850d995c8088"></div>
+          <div
+            dangerouslySetInnerHTML={{
+              __html: `<script src="https://d3ey4db7ze2ot6.cloudfront.net/static/embed.js" data-jobber-request-id="3bd62871-3373-4f9e-a89c-850d995c8088"></script>`,
+            }}
+          />
         </div>
       </div>
 
@@ -803,6 +806,11 @@ export default function Home() {
         <div className="contact-section">
           <h2>Get A Free Quote:</h2>
           <div id="3bd62871-3373-4f9e-a89c-850d995c8088-2"></div>
+          <div
+            dangerouslySetInnerHTML={{
+              __html: `<script src="https://d3ey4db7ze2ot6.cloudfront.net/static/embed.js" data-jobber-request-id="3bd62871-3373-4f9e-a89c-850d995c8088"></script>`,
+            }}
+          />
         </div>
       </div>
 
@@ -867,6 +875,20 @@ export default function Home() {
               <strong>Mount Washington</strong> • <strong>Glassell Park</strong>{" "}
               • <strong>Boyle Heights</strong>
             </p>
+            <div style={{ marginTop: "30px", marginBottom: "20px" }}>
+              <Image
+                src="/images/map.png"
+                alt="Service Area Map - Greater Los Angeles"
+                width={960}
+                height={720}
+                style={{
+                  width: "100%",
+                  maxWidth: "960px",
+                  height: "auto",
+                  borderRadius: "8px",
+                }}
+              />
+            </div>
             <p style={{ marginTop: "20px" }}>
               Don&apos;t see your area? We&apos;re expanding fast. Give us a
               call!
