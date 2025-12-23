@@ -297,7 +297,7 @@ export default function Home() {
       <div className="coupon-section">
         <a
           style={{ color: "#2d5016" }}
-          href="sms:+12135550123?&body=Hey, I would like to get a $50 OFF coupon on my tree trimming service."
+          href="sms:+13108809090?&body=Hi%2C%20I'd%20like%20to%20apply%20the%20$50%20OFF%20Tree%20Trimming%20coupon%20(TRIM50)."
         >
           <div className="coupon-section-left">
             <h3>Limited Time</h3>
@@ -309,7 +309,7 @@ export default function Home() {
           </div>
         </a>
 
-        <a href="sms:+12135550123?&body=Hey, I would like to get a FREE on-site consultation.">
+        <a href="sms:+13108809090?&body=Hi%2C%20I'd%20like%20to%20schedule%20a%20FREE%20on-site%20consultation.">
           <div className="coupon-section-right">
             <h3>Most Popular</h3>
             <h2>FREE</h2>
