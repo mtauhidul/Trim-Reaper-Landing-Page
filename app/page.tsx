@@ -66,13 +66,13 @@ export default function Home() {
           </nav>
 
           <div className="call-section">
-            Call Us: <a href="tel:12135550123">(213) 555-0123</a>
+            Call Us: <a href="tel:3108809090">(310) 880-9090</a>
           </div>
 
           <div className="txt-email-section">
             <div className="cta-box-menu">
               <span className="material-icons">message</span>
-              <a href="sms:12135550123">Text Us</a>
+              <a href="sms:3108809090">Text Us</a>
             </div>
 
             <div className="cta-box-menu">
@@ -111,7 +111,7 @@ export default function Home() {
                 >
                   phone
                 </span>{" "}
-                <a href="tel:12135550123">(213) 555-0123</a>
+                <a href="tel:3108809090">(310) 880-9090</a>
               </h2>
               <h3>
                 Call The <Link href="/">Tree Trimming</Link> Professionals!
@@ -179,8 +179,8 @@ export default function Home() {
 
         <div className="cta-buttons-top-section">
           <div className="header-cta-call">
-            <a href="tel:12135550123">
-              <div className="call-button">Call Us: (213) 555-0123</div>
+            <a href="tel:3108809090">
+              <div className="call-button">Call Us: (310) 880-9090</div>
             </a>
           </div>
 
@@ -667,7 +667,7 @@ export default function Home() {
       <div className="container">
         <div className="contact-section">
           <h2>
-            Call Us: <a href="tel:12135550123">(213) 555-0123</a>
+            Call Us: <a href="tel:3108809090">(310) 880-9090</a>
           </h2>
         </div>
 
@@ -675,7 +675,7 @@ export default function Home() {
 
         <div className="contact-section">
           <h2>
-            Text Us: <a href="sms:12135550123">(213) 555-0123</a>
+            Text Us: <a href="sms:3108809090">(310) 880-9090</a>
           </h2>
         </div>
 
@@ -771,7 +771,7 @@ export default function Home() {
       <div className="container">
         <div className="contact-section">
           <h2>
-            Call Us: <a href="tel:12135550123">(213) 555-0123</a>
+            Call Us: <a href="tel:3108809090">(310) 880-9090</a>
           </h2>
         </div>
 
@@ -779,7 +779,7 @@ export default function Home() {
 
         <div className="contact-section">
           <h2>
-            Text Us: <a href="sms:12135550123">(213) 555-0123</a>
+            Text Us: <a href="sms:3108809090">(310) 880-9090</a>
           </h2>
         </div>
 
