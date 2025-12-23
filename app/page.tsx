@@ -175,7 +175,7 @@ export default function Home() {
           <Image src="/5-stars.png" alt="5 stars" width={200} height={40} />
         </div>
 
-        <h1 style={{ textAlign: "center" }}>Trim Reaper . COM</h1>
+        <h1 style={{ textAlign: "center" }}>TRIM REAPER . VERCEL . APP</h1>
 
         <div className="cta-buttons-top-section">
           <div className="header-cta-call">
